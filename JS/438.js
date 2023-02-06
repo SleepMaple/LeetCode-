@@ -38,3 +38,8 @@ var findAnagrams = function(s, p) {
 
     return ans;
 };
+
+/*
+想法 : 滑動視窗比字串是否相同。
+複雜度 : O(n)。
+*/
