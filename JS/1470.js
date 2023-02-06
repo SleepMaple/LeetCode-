@@ -16,3 +16,4 @@ var shuffle = function(nums, n) {
 /* 
 想法：把陣列的東西放進去！
 複雜度：O(n)
+*/
