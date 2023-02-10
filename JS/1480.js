@@ -8,3 +8,8 @@ var runningSum = function(nums) {
 
     return ans;
 };
+
+/*
+想法：給他加起來！
+複雜度：O(n)
+*/

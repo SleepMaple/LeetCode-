@@ -30,3 +30,9 @@ var isIsomorphic = function(s, t) {
 
     return check;
 };
+
+/*
+題意：兩個字串的組成字母架構是否相同，Ex：add, bee
+想法：掃描兩個陣列並記錄元素之出現個數，接著判斷兩個陣列相對應的次數是否相同。
+複雜度：O(n)
+*/
