@@ -56,6 +56,6 @@ var shortestAlternatingPaths = function(n, redEdges, blueEdges) {
 
 /*
 題意:給在一維地圖上的紅藍有向路徑，並規定紅藍交錯走，求到終點的最短路徑。
-想法:有條件的BFS。
-複雜度:
+想法:有條件的BFS，有可能會產生環所以用SET來記錄是否有沒有用過這個邊。
+複雜度:O(V + E)
 */
