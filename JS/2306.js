@@ -44,3 +44,4 @@ var distinctNames = function(ideas) {
     
 複雜度:
     O(n)，紅黑樹SET查詢的複雜度為logn，故還是以For迴圈為大。
+*/
