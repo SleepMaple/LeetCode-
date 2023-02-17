@@ -19,8 +19,6 @@ var maxDepth = function(root) {
     return Math.max(left, right) + 1;
 }; 
 /*
-
-*/
 題意:給二元樹找樹深。
 想法:遞迴找。
 複雜度:O(n)。n為節點，因為有可能是鏈。
