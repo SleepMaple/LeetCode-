@@ -33,7 +33,7 @@ var zigzagLevelOrder = function(root) {
                 queue.push(curNode.left);
             }
 
-            if(curNode.right != null) {
+            if (curNode.right != null) {
                 queue.push(curNode.right);
             }
         }
