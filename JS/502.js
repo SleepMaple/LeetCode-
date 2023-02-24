@@ -33,8 +33,8 @@ var findMaximizedCapital = function(k, w, profits, capital) {
 題意:
     k是最多專案數量，w是初始資本額，profit為各專案執行成功之收益，capital為各專案執行所需要的資本。
     求最大收益。
+    
 想法:
-
     1. 有條件的0/1背包問題?
     2. 排序，每次取最大收益出來(priority_queue?) => JS沒用過= . = 手刻又麻煩直接看解答
     
