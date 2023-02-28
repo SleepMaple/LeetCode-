@@ -34,7 +34,7 @@ var findDuplicateSubtrees = function(root) {
     }
     dfs(root);
     
-    for (var [key, value] of map.entries()) {
+    for (let [key, value] of map.entries()) {
         if (value[0] === 2) {
             ans.push(value[1]);
         }
