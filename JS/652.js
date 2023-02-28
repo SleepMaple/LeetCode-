@@ -14,7 +14,7 @@ var findDuplicateSubtrees = function(root) {
     let map =　new Map(), ans = [];
     
     function dfs(node) {
-        if (node===null) {
+        if (node === null) {
             return "";
         }
 
