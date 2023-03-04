@@ -51,5 +51,5 @@ class WordDictionary {
     Trie + backtrack。
 
 複雜度:
-    
+    O(n)。
 */
