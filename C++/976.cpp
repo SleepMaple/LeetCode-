@@ -17,4 +17,5 @@ public:
 };
 
 //mathematics => three sides of the triangle satisfy this rule : a - b < x < a + b
-//sort => find the three sides
+//greedy => sort => if nums[i - 1] + nums[i - 2] <= nums[i], there is no chance to create a triangle. 
+//otherwise this is the biggest perimeter of the triangle
